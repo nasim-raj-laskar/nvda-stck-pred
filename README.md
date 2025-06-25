@@ -151,39 +151,12 @@ A comprehensive machine learning-powered dashboard for predicting NVIDIA stock m
 - Update `app.py` to include additional visualizations
 - Extend the model with new predictor variables
 
-### Changing Stock Symbol
-- Update the `load_nvidia_data()` function in `app.py`
-- Modify the ticker symbol from "NVDA" to desired stock
-- Adjust model parameters for different market behaviors
-
-### Model Improvements
-- Experiment with different algorithms (XGBoost, Neural Networks)
-- Add sentiment analysis from news/social media
-- Include macroeconomic indicators
-- Implement ensemble methods
-
 ## 📊 Data Sources
 
 - **Stock Data**: Yahoo Finance (yfinance library)
 - **Historical Range**: 1999-present (25+ years)
 - **Update Frequency**: Real-time during market hours
 - **Data Quality**: Professional-grade OHLCV data
-
-## 🤝 Contributing
-
-Feel free to contribute improvements:
-1. Fork the repository
-2. Create feature branches
-3. Submit pull requests
-4. Report issues and bugs
-
-## 📞 Support
-
-For questions or issues:
-- Check the console for error messages
-- Ensure all dependencies are installed correctly
-- Verify internet connection for data fetching
-- Review the requirements.txt for version compatibility
 
 ## 🎉 Acknowledgments
 
@@ -193,7 +166,3 @@ For questions or issues:
 - **Scikit-learn** for machine learning capabilities
 
 ---
-
-**Happy Trading! 📈🚀**
-
-*Remember: Always do your own research and never invest more than you can afford to lose.*
