@@ -38,18 +38,6 @@ echo ""
 echo "🔍 Testing internet connection..."
 python3 -c "import yfinance as yf; data = yf.Ticker('AAPL').history(period='1d'); exit(0 if not data.empty else 1)" 2>/dev/null
 
-# Always use the working version since yfinance API is having issues
 echo "🚀 Starting NVIDIA Stock Prediction Dashboard..."
-if [ -f "app_working.py" ]; then
-    echo "✅ Using fully functional dashboard with sample data"
-    python3 -m streamlit run app_working.py
-elif [ -f "app_fixed.py" ]; then
-    echo "🚀 Starting fixed dashboard..."
-    python3 -m streamlit run app_fixed.py
-elif [ -f "app_simple.py" ]; then
-    echo "🚀 Starting simplified dashboard..."
-    python3 -m streamlit run app_simple.py
-else
-    echo "🚀 Starting main dashboard..."
-    python3 -m streamlit run app.py
-fi
+echo "✅ Using fully functional dashboard with sample data"
+python3 -m streamlit run app.py
