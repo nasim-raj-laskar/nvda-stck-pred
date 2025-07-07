@@ -56,19 +56,44 @@ A comprehensive machine learning-powered dashboard for predicting NVIDIA stock m
    cd "nvda stck pred"
    ```
 
-2. **Install required packages**
+2. **Run the startup script**
    ```bash
-   pip install -r requirements.txt
+   chmod +x start_app.sh
+   ./start_app.sh
+   ```
+   
+   Or alternatively:
+   ```bash
+   bash start_app.sh
    ```
 
-3. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-4. **Open your browser**
+3. **Open your browser**
    - The app will automatically open at `http://localhost:8501`
    - If not, navigate to the URL shown in your terminal
+
+**Note**: The startup script automatically handles dependency installation and provides helpful startup messages.
+
+## 📸 Dashboard Screenshots
+
+### 📈 Overview Page
+*Add screenshot of the Overview tab showing stock price charts, moving averages, and performance metrics*
+
+![Overview Dashboard](images/overview.png)
+
+### 🎯 Predictions Page
+*Add screenshot of the Predictions tab displaying ML model predictions, buy/hold signals, and recent predictions table*
+
+![Predictions Dashboard](images/predictions.png)
+
+### 📊 Performance Analysis Page
+*Add screenshot of the Model Performance tab showing confusion matrix, feature importance, and model metrics*
+
+![Performance Dashboard](images/performance.png)
+
+### 🔍 Technical Analysis Page
+*Add screenshot of the Technical Analysis tab displaying RSI charts, MACD indicators, and volume analysis*
+
+![Technical Analysis Dashboard](images/technical_analysis.png)
 
 ## 📦 Dependencies
 
