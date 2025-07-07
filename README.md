@@ -78,22 +78,22 @@ A comprehensive machine learning-powered dashboard for predicting NVIDIA stock m
 ### 📈 Overview Page
 *Add screenshot of the Overview tab showing stock price charts, moving averages, and performance metrics*
 
-![Overview Dashboard](images/overview.png)
+![Overview Dashboard](img/1.png)
 
 ### 🎯 Predictions Page
 *Add screenshot of the Predictions tab displaying ML model predictions, buy/hold signals, and recent predictions table*
 
-![Predictions Dashboard](images/predictions.png)
+![Predictions Dashboard](img/2.png)
 
 ### 📊 Performance Analysis Page
 *Add screenshot of the Model Performance tab showing confusion matrix, feature importance, and model metrics*
 
-![Performance Dashboard](images/performance.png)
+![Performance Dashboard](img/3.png)
 
 ### 🔍 Technical Analysis Page
 *Add screenshot of the Technical Analysis tab displaying RSI charts, MACD indicators, and volume analysis*
 
-![Technical Analysis Dashboard](images/technical_analysis.png)
+![Technical Analysis Dashboard](img/4.png)
 
 ## 📦 Dependencies
 
