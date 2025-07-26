@@ -9,7 +9,7 @@
 - **ML Predictions**: Random Forest model with 73% precision for stock direction prediction
 - **Interactive Dashboard**: Beautiful Streamlit interface with multiple analysis tabs
 - **Technical Analysis**: RSI, MACD, Bollinger Bands, and moving averages
-- **Backtesting**: Historical performance analysis with customizable parameters
+- **Backtesting**: Historical performance analysis with customizable parameters.
 
 ### 📊 Dashboard Sections
 
